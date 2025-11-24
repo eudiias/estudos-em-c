@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/dias/Documents/studyc/lex003",
-      "program": "/home/dias/Documents/studyc/lex003/build/Debug/outDebug",
+      "cwd": "/home/dias/Documents/studyc/estruturas-basicas-de-controle/lex004",
+      "program": "/home/dias/Documents/studyc/estruturas-basicas-de-controle/lex004/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
