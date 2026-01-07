@@ -10,7 +10,7 @@ int main()
 
     float tempValor = atof(temp);
 
-    printf(" A temperatura esta ");
+    printf("A temperatura esta ");
 
     if (tempValor < 18)
     {
