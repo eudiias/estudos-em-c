@@ -3,9 +3,18 @@
 int main ()
 {
 
-    char xablau[3][20] = {"Carlos", "Mariana", "Julie"};
+    char nomes[3][20];
 
-    printf("%s", xablau[0]);
+    for (int i = 0; i < 3; i++)
+    {
+        printf("Digite o nome %d:\n", i + 1);
+        scanf("%s", nomes[i]);
+    }
+
+     for (int i = 0; i < 3; i++)
+    {
+        printf("Nome %d: %s\n", i + 1, nomes[i]);
+    }
 
     return 0;
 }
