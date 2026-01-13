@@ -17,7 +17,7 @@ int main()
 
     for(int i = 0; i < 3; i++)
     {
-        printf("ALUNO %d: \n", i + 1);
+        printf("ALUNO %d \n", i + 1);
         for(int j = 0; j < 2; j++)
         {
             printf("NOTA %d: %d\n", j + 1, notas[i][j]);
