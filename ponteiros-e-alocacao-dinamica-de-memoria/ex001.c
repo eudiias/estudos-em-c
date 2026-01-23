@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main()
-{   
+{
     int numero = 42;
     int *n = &numero;
 
@@ -11,5 +11,7 @@ int main()
 
     printf("Depois: %d", numero);
 
+
+    
     return 0;
 }
