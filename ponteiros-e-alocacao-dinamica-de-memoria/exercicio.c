@@ -3,11 +3,13 @@
 
 void invercao(int *vetor, int tamanho)
 {
-    tamanho = tamanho - 1;
+    int temp;
 
-    for (int i = tamanho; i > 0 / 2; i--)
+    for (int i = 0; i < tamanho / 2; i++)
     {
-        printf("%d", vetor[i]);
+        temp = vetor[i];
+        vetor[i] = vetor[tamanho - 1 - i];
+        vetor[tamanho - 1 - i] = temp;
     }
 }
 
@@ -45,13 +47,18 @@ int main()
 
     printf("\n==== Valores do vetor Invertidos ====\n");
 
+    invercao(intVetor, tamanho);
+
     printf("[ ");
 
-    invercao(intVetor, tamanho);
+    for (int i = 0; i < tamanho; i++)
+    {
+        printf("%d ", intVetor[i]);
+    }
 
     printf("]");
 
-
+    free(intVetor);
 
     return 0;
 }
