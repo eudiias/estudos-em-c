@@ -36,5 +36,7 @@ int main()
         printf("| Linha %d: %d |\n", i + 1, soma[i]);
     }
 
+    free(vetor);
+
     return 0;
 }

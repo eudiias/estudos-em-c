@@ -24,5 +24,7 @@ int main()
         printf("Soma da linha %d: %d\n", i, soma);
     }
 
+    free(matriz);
+
     return 0;
 }
